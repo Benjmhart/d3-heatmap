@@ -1,3 +1,28 @@
-body{
+body {
     color: blue;
+    margin: 5%;
+    font-family: helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin:0px;
+}
+p {
+    margin:0px;
+    
+}
+
+svg{
+    margin: 0 auto;
+}
+
+div.tooltip {
+    background-color: black;
+    padding: 5px;
+    & p {
+        color: white;
+        margin: 0px;
+        margin-top: 5px;
+    }
 }
